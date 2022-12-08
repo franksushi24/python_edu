@@ -99,10 +99,14 @@ animals = {
 animals['b'].append('bison')
 animals['c'] = ['cat']
 
+# this is to add a list if the key does not exist
+
 if 'c' not in animals:
     animals ['c'] = []
 
 animals['c'].append('cat')
+
+# this is to add a list if key does not exist but with quick workarounds 
 
 from collections import defaultdict
 
